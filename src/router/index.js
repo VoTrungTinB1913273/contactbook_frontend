@@ -19,9 +19,9 @@ const routes = [
         props: true 
     },
     {
-        path: "/contactss/:id",
-        name: "InsertContact",
-        component: () => import("@/views/ContactInsert.vue"),
+        path: "/contactsadd/",
+        name: "AddContact",
+        component: () => import("@/views/ContactAdd.vue"),
         props: true 
     },
 ];
